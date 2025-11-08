@@ -1,0 +1,65 @@
+body {
+  background: #101820;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1e2a38;
+  padding: 20px;
+  color: #00ffae;
+}
+
+.selector {
+  background: #17212b;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+select, button {
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  background: #00ffae;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+#plan {
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#workoutList li {
+  background: rgba(0, 255, 174, 0.1);
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
