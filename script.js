@@ -1,11 +1,11 @@
 // IronMind for Him - script.js
-// Handles UI, Mech Xecute animation, workout generation and nutrition
+// Handles UI, Initiate animation, workout generation and nutrition
 
 document.addEventListener('DOMContentLoaded', () => {
   // DOM refs
   const generateBtn = document.getElementById('generateBtn');
   const resetBtn = document.getElementById('resetBtn');
-  const xecuteEl = document.getElementById('xecute');
+  const xecuteEl = document.getElementById('Initiate');
   const workoutList = document.getElementById('workoutList');
   const warmupEl = document.getElementById('warmup');
   const nutritionEl = document.getElementById('nutrition');
@@ -150,13 +150,13 @@ document.addEventListener('DOMContentLoaded', () => {
     return el;
   }
 
-  // "Mech Xecute" animation controller
-  function triggerXecuteSequence(callback){
+  // "Initiate" animation controller
+  function triggerInitiateSequence(callback){
     // activate visuals
-    xecuteEl.classList.add('active');
+    initiateEl.classList.add('active');
     // short surge then show text then hide
     setTimeout(()=> {
-      xecuteEl.classList.remove('active');
+      initiateEl.classList.remove('active');
       if (typeof callback === 'function') callback();
     }, 950); // time matches CSS transitions
   }
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // show mech animation, then build plan
-    triggerXecuteSequence(()=> {
+    triggerInitiateSequence(()=> {
       // clear previous
       workoutList.innerHTML = '';
       warmupEl.innerHTML = '';
