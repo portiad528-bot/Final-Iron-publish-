@@ -86,7 +86,6 @@ input::placeholder{color:#4f6a8f}
 @media (max-width:760px){
   .grid{grid-template-columns:1fr}
   .controls-row{flex-direction:column;align-items:stretch}
-  .about-right{display:none}
 }
 .nav-btn {
   display: inline-block;
