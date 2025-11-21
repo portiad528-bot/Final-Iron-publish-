@@ -86,20 +86,5 @@ input::placeholder{color:#4f6a8f}
 @media (max-width:760px){
   .grid{grid-template-columns:1fr}
   .controls-row{flex-direction:column;align-items:stretch}
-}
-.nav-btn {
-  display: inline-block;
-  margin: 8px 0;
-  padding: 10px 20px;
-  background: #1d9bf0;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.2s;
-}
-
-.nav-btn:hover {
-  background: #1475b8;
-  transform: scale(1.05);
+  .about-right{display:none}
 }

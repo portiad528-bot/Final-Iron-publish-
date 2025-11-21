@@ -1,4 +1,4 @@
-// IronMind for Him - Mech Xecute script
+// IronMind for Him - script.js
 // Handles UI, Mech Xecute animation, workout generation and nutrition
 
 document.addEventListener('DOMContentLoaded', () => {
